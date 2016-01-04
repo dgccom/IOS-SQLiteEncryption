@@ -8,6 +8,6 @@ sqlite3开源部分是没有加密的,如果客户端需要加密,需要使用�
 
 本功能不支持将无加密的sqlite直接加密,而是使用数据库迁移的方式进行加密.demo中带有迁移代码.
 
-在调用open方法之后调用setkey方法,便可将数据库解密,在close sqlite之前都可以正常执行sql
+在调用open方法之后调用setkey方法,便可将数据库解密,如果是新建的数据库,此方法便是给sqlite设置一个密码,在close sqlite之前都可以正常执行sql
 
 使用方法详见Sqlite加解密.docx
