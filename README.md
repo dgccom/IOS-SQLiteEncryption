@@ -13,3 +13,5 @@ sqlite3开源部分是没有加密的,如果客户端需要加密,需要使用�
 在工程的build setting里修改配置other c flags添加-DSQLITE_HAS_CODEC -DSQKUTE_THREADSAFE -DSQLCIPHER_CRYPTO_CC -DSQLITE_TEMP_STORE=2,加入Security.framework
 
 
+安卓和PHP参考 https://www.zetetic.net/sqlcipher/documentation/
+
