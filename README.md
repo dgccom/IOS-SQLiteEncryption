@@ -16,4 +16,5 @@ sqlite3开源部分是没有加密的,如果客户端需要加密,需要使用�
 
 安卓和PHP参考 https://www.zetetic.net/sqlcipher/documentation/
 
-特别致谢：https://www.zetetic.net/sqlcipher/
+参考资料：https://www.zetetic.net/sqlcipher/
+        http://www.2cto.com/kf/201407/315727.html 
